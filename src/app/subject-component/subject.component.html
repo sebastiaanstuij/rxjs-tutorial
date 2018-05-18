@@ -1,0 +1,24 @@
+<div>
+  <h2>
+    {{ title }}
+  </h2>
+
+  <h3>
+      Subscribe 1:
+  </h3>
+  <ul>
+    <li *ngFor="let value of subscribeArray1">
+      {{value}}
+    </li>
+  </ul>
+
+  <h3>
+      Subscribe 2 (later):
+  </h3>
+  <ul>
+    <li *ngFor="let value of subscribeArray2">
+      {{value}}
+    </li>
+  </ul>
+
+</div>
